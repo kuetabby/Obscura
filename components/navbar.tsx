@@ -11,8 +11,8 @@ export const NavBar = () => {
 
   const MENU_LIST = [
     { name: "About", href: "#about" },
-    { name: "Roadmaps", href: "#roadmaps" },
-    { name: "Tokenomics", href: "#tokenomics" },
+    { name: "The Challenge", href: "#challenge" },
+    { name: "Roadmap", href: "#roadmaps" },
     { name: "FAQ", href: "#faq" },
   ];
 
@@ -47,7 +47,7 @@ export const NavBar = () => {
           <Button
             onClick={() => window.open("/", "_blank", "noopener,noreferrer")}
             variant="outline"
-            className="rounded-lg !border-none !bg-primaryColor text-black px-6 py-2 font-extrabold hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-primaryColorLight/20"
+            className="text-white rounded-lg !border-none !bg-primaryColor px-6 py-2 font-extrabold hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-primaryColorLight/20"
           >
             $OBS
           </Button>

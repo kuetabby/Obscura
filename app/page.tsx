@@ -5,7 +5,7 @@ import { NavBar } from "@/components/navbar";
 import { Features2 } from "@/components/features2";
 
 import { RoadmapSection } from "@/components/roadmaps";
-import { Tokenomics } from "@/components/tokenomics";
+// import { Tokenomics } from "@/components/tokenomics";
 import { FaqSection } from "@/components/FAQ2";
 import { Footer } from "@/components/footer";
 import { useIsMounted } from "@/hooks/useMounted";
@@ -33,7 +33,7 @@ export default function Home() {
         <AboutObscura />
         <Features2 />
         <RoadmapSection />
-        <Tokenomics />
+        {/* <Tokenomics /> */}
         <FaqSection />
         <Footer />
       </div>

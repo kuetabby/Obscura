@@ -1,6 +1,8 @@
 "use client";
 
+import { socialsLink } from "@/constants/links";
 import { motion, useAnimation } from "framer-motion";
+import Link from "next/link";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 // import { contractAddress } from "@/constants/links";
@@ -95,9 +97,15 @@ export const Hero = () => {
           <button className="px-8 py-3 bg-primaryColor text-black font-semibold rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-primaryColorLight/20">
             Get Started
           </button>
-          <button className="px-8 py-3 border border-primaryColor text-primaryColor font-semibold rounded-lg shadow-lg hover:text-black hover:bg-[#f4fae3] transition-transform duration-300">
-            Learn More
-          </button>
+          <Link
+            href={socialsLink.whitepaper}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="px-8 py-3 border border-primaryColor text-primaryColor font-semibold rounded-lg shadow-lg hover:text-black hover:bg-[#f4fae3] transition-transform duration-300">
+              Documentation
+            </button>
+          </Link>
         </motion.div>
 
         {/* <div className="relative flex justify-center items-center mt-12 px-4">

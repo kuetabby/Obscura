@@ -75,7 +75,7 @@ function AnimatedItem({ children }: { children: React.ReactNode }) {
 
 export function Features2() {
   return (
-    <section className="py-24 bg-[#070710]">
+    <section className="py-24 bg-[#070710]" id="challenge">
       <div className="text-center mb-16">
         <motion.h2
           className="text-4xl md:text-5xl font-bold text-white"
