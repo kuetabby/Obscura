@@ -88,7 +88,7 @@ export const Hero = () => {
         </p>
 
         <motion.div
-          className="mt-4  flex flex-row justify-center gap-4 p-4"
+          className="mt-4 flex flex-wrap flex-row justify-center gap-4 p-4"
           variants={glowingButtonVariants}
           initial="hidden"
           whileInView="visible"
