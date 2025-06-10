@@ -64,10 +64,10 @@ export const Hero = () => {
         animate={{ opacity: 0.8 }}
       >
         {/* Particle Animation with Float */}
-        <div className="absolute w-[150px] h-[150px] bg-[#d87cff] rounded-lg blur-3xl opacity-80 animate-pulse animate-float top-[20%] left-[10%]"></div>
-        <div className="absolute w-[200px] h-[200px] bg-[#e870ff] rounded-lg blur-3xl opacity-70 animate-pulse animate-float top-[50%] left-[60%] delay-1000"></div>
-        <div className="absolute w-[100px] h-[100px] bg-[#f09fff] rounded-lg blur-3xl opacity-90 animate-pulse animate-float top-[70%] left-[30%] delay-2000"></div>
-        <div className="absolute w-[150px] h-[100px] bg-[#d87cff] rounded-lg blur-3xl opacity-80 animate-pulse animate-float top-[20%] left-[80%]"></div>
+        <div className="absolute w-[150px] h-[150px] bg-[#d87cff] rounded-lg blur-3xl opacity-80 animate-pulse top-[20%] left-[10%]"></div>
+        <div className="absolute w-[200px] h-[200px] bg-[#e870ff] rounded-lg blur-3xl opacity-70 animate-pulse top-[50%] left-[60%] delay-1000"></div>
+        <div className="absolute w-[100px] h-[100px] bg-[#f09fff] rounded-lg blur-3xl opacity-90 animate-pulse top-[70%] left-[30%] delay-2000"></div>
+        <div className="absolute w-[150px] h-[100px] bg-[#d87cff] rounded-lg blur-3xl opacity-80 animate-pulse top-[20%] left-[80%]"></div>
       </motion.div>
 
       {/* Content */}
