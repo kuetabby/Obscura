@@ -58,7 +58,7 @@ const steps = [
       // "Launch in new regions to increase market share.",
       "Form new partnerships to strengthen market presence",
       "Further development of Obscura to enhance scalability and security",
-      "Revenue sharing",
+      // "Revenue sharing",
     ],
   },
 ];
