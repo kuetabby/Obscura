@@ -2,7 +2,7 @@ export const contractAddress = "-";
 export const pairAddress = "-";
 
 export const socialsLink = {
-  whitepaper: "",
+  whitepaper: "/whitepaper.pdf",
   twitter: "https://x.com/getObscura",
   telegram: "https://t.me/ObscuraToken",
   medium: "https://medium.com",

@@ -39,7 +39,7 @@ export function Footer() {
               />
             </Link>
             <Link
-              href="/whitepaper.pdf"
+              href={socialsLink.whitepaper}
               target="_blank"
               rel="noopener noreferrer"
             >
