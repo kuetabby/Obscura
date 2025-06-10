@@ -103,7 +103,7 @@ export const Hero = () => {
             rel="noopener noreferrer"
           >
             <button className="px-8 py-3 border border-primaryColor text-primaryColor font-semibold rounded-lg shadow-lg hover:text-black hover:bg-[#f4fae3] transition-transform duration-300">
-              Documentation
+              Whitepaper
             </button>
           </Link>
         </motion.div>
