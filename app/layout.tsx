@@ -4,7 +4,7 @@ import { LexendExaDisplay } from "@/utils/font";
 
 const app_title = "Obscura";
 const app_name = "Obscura";
-const description = "";
+const description = "Encrypted. Decentralized. AI-Ready";
 
 export const metadata: Metadata = {
   title: app_title,
