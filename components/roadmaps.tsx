@@ -34,8 +34,8 @@ const steps = [
     title: "Phase 1",
     description: "Establishing Foundation and Visibility",
     subpoints: [
-      "Token Launch on Uniswap: Clearly define the token utility, and craft a strategic launch plan to attract investors and establish a strong project foundation.",
-      "Market Awareness Campaign: Initiate targeted marketing efforts to build awareness and attract early adopters to the project.",
+      "Token Launch on Uniswap: Clearly define the token utility, and craft a strategic launch plan to attract investors and establish a strong project foundation",
+      "Market Awareness Campaign: Initiate targeted marketing efforts to build awareness and attract early adopters to the project",
       // "Initial Release of Tereon AI-Powered VPN: Showcase key features of the Tereon VPN with a public demo to demonstrate its capabilities and generate interest.",
       // "Beta Access for Tereon AI Agents: Offer limited beta access to early users to gather feedback and refine the product.",
       // "Subscriptions for Tereon AI Agents: Introduce subscription plans for Tereon AI Agents, featuring advanced reasoning capabilities that approach near-human reasoning.",
@@ -45,9 +45,9 @@ const steps = [
     title: "Phase 2",
     description: "Expanding Market Reach",
     subpoints: [
-      "Begin partnerships with key industry players.",
-      "Expand product features and services to attract new customers.",
-      "Launch second phase of marketing to a broader audience.",
+      "Begin partnerships with key industry players",
+      "Expand product features and services to attract new customers",
+      "Launch second phase of marketing to a broader audience",
       // "Revenue sharing",
     ],
   },
@@ -56,8 +56,9 @@ const steps = [
     description: "Global Expansion",
     subpoints: [
       // "Launch in new regions to increase market share.",
-      "Form new partnerships to strengthen market presence.",
-      "Further development of Obscura to enhance scalability and security.",
+      "Form new partnerships to strengthen market presence",
+      "Further development of Obscura to enhance scalability and security",
+      "Revenue sharing",
     ],
   },
 ];
