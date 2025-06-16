@@ -96,9 +96,15 @@ export const Hero = () => {
           whileInView="visible"
           viewport={{ once: false }}
         >
-          <button className="px-8 py-3 bg-primaryColor text-black font-semibold rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-primaryColorLight/20">
-            Get Started
-          </button>
+          <Link
+            href="https://dapp.getobscura.net"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="px-8 py-3 bg-primaryColor text-black font-semibold rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-primaryColorLight/20">
+              Get Started
+            </button>
+          </Link>
           <Link
             href={socialsLink.whitepaper}
             target="_blank"
