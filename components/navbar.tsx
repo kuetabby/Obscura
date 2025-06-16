@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { findUsLink } from "@/constants/links";
 // import { findUsLink } from "@/constants/links";
 
 export const NavBar = () => {
@@ -45,7 +46,9 @@ export const NavBar = () => {
             </Link>
           ))}
           <Button
-            onClick={() => window.open("/", "_blank", "noopener,noreferrer")}
+            onClick={() =>
+              window.open(findUsLink.uniswap, "_blank", "noopener,noreferrer")
+            }
             variant="outline"
             className="text-white rounded-lg !border-none !bg-primaryColor px-6 py-2 font-extrabold hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-primaryColorLight/20"
           >
@@ -96,7 +99,9 @@ export const NavBar = () => {
               </Link>
             ))}
             <Button
-              onClick={() => window.open("/", "_blank", "noopener,noreferrer")}
+              onClick={() =>
+                window.open(findUsLink.uniswap, "_blank", "noopener,noreferrer")
+              }
               variant="outline"
               className="rounded-lg w-full max-w-xs !border-none !bg-primaryColor text-black px-6 py-2 font-extrabold hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-primaryColorLight/20"
             >

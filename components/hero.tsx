@@ -1,6 +1,6 @@
 "use client";
 
-import { socialsLink } from "@/constants/links";
+import { contractAddress, socialsLink } from "@/constants/links";
 import { motion, useAnimation } from "framer-motion";
 import Link from "next/link";
 import { useEffect } from "react";
@@ -82,10 +82,12 @@ export const Hero = () => {
           MCP-Integrated, Encrypted, and AI-Optimized Storage
           {/* <span className="text-primaryColor"> Obscura</span> */}
         </h1>
-        <p className="mt-4 text-[10px] md:text-sm text-gray-300 w-auto md:w-[700px] text-center mx-auto">
+        <p className="my-4 text-[10px] md:text-sm text-gray-300 w-auto md:w-[700px] text-center mx-auto">
           Combining decentralized storage with MCP (Model Context Protocol) to
           give your data meaning, privacy, and machine ready structure.
         </p>
+
+        <p>{contractAddress}</p>
 
         <motion.div
           className="mt-4 flex flex-wrap flex-row justify-center gap-4 p-4"

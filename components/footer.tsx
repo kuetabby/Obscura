@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { GitbookIcon, TeleIcon, TwitterIcon } from "@/utils/Icon/socials";
 import { DextoolsIcon } from "@/utils/Icon/dex";
-import { socialsLink } from "@/constants/links";
+import { findUsLink, socialsLink } from "@/constants/links";
 // import shape from "@/public/image/shape/shape_ico_hero_section_bottom.svg";
 
 export function Footer() {
@@ -48,7 +48,11 @@ export function Footer() {
                 style={{ fontSize: "1.5em" }}
               />
             </Link>
-            <Link href="/" target="_blank" rel="noopener noreferrer">
+            <Link
+              href={findUsLink.dextools}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <DextoolsIcon
                 className="fill-white hover:fill-primaryColor transform transition-all duration-300 hover:scale-110 hover:rotate-12"
                 style={{ fontSize: "1.5em" }}

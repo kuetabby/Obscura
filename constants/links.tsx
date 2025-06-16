@@ -1,5 +1,5 @@
-export const contractAddress = "-";
-export const pairAddress = "-";
+export const contractAddress = "0x074229BCB13279aebfAD49084E3470563f73Bf01";
+export const pairAddress = "0xf11198349ad54b1f8cc5e5bd41541ce1f51d4d83";
 
 export const socialsLink = {
   whitepaper: "/whitepaper.pdf",
